@@ -1,4 +1,4 @@
-#Crack of a detected Fortnite Cheat by the https://cheater.rehab/ team.
+Crack of a detected Fortnite Cheat by the https://cheater.rehab/ team.
 
 After using a 0day exploit we have in keyauth to bypass the login it then downloads kdmapper and there driver to disk which as you know is not a very safe and secure way of loading the driver from there it is easy to copy to a diffrent folder and you can load it when every you want.
 
