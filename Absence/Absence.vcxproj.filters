@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="kernelmode_proc_handler.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="icons_main.cpp">
+      <Filter>Icons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="kernelmode_proc_handler.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="process_handler.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="utlims.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="winnt.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="resources.h" />
+    <ClInclude Include="Keys.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{20b9c563-3d27-442c-a2d2-ed9ae3862661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{7fbe1b43-9ebc-4f80-861b-c877a54df59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{cc7476e1-daf5-436e-bf6b-b5a5dee453c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icons">
+      <UniqueIdentifier>{5525aebb-d702-449c-8511-106bea5c8a22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3XD\d3dx9.lib">
+      <Filter>ImGui</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
